@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid #fff;
+}
+
+main{
+    max-width: 1000px;
+    margin: 3rem auto 0 auto;
+    background-color: #5E72E4;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* heading section */
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.option i{
+    margin-left: 1.5rem;
+}
+
+.profile-info{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.profile-info img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: 0.3rem;
+}
+
+#search{
+    width: 14rem;
+    height: 2.5rem;
+    padding-left: 2.5rem;
+    color: grey;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+}
+
+.search-input i{
+ position: absolute;
+ margin-top: 0.85rem;
+ margin-left: 1rem;
+ color: grey;
+}
+
+.table-area{
+    padding: 1rem 2rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 1rem;
+    height: 10rem;
+}
+
+.table-area div{
+    display: flex;
+    align-items: center;
+}
+
+.table-nav h3{
+    font-weight: lighter;
+}
+
+.navigation{
+    margin-left: 2rem;
+    background: #fff;
+    padding: 0.8rem 1rem;
+    border-radius: 6px;
+    color: grey;
+}
+
+.navigation i{
+    color: #5E72E4;
+    margin-right: 0.5rem;
+}
+
+.navigation a{
+    color: #5E72E4;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+}
+
+.last-link{
+    color: grey !important;
+}
+
+.btn{
+    padding: 0.5rem;
+    margin-left: 1rem;
+    background: #fff;
+    border: none;
+    border-radius: 6px;
+    color: #5E72E4;
+}
+
+.list-area{
+    height: 20rem;
+    background: #F2F4FA;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.light-table{
+    width: 900px;
+    background: #fff;
+    height: 17rem;
+    border-radius: 6px;
+    position: absolute;
+    top: -3.5rem;
+    left: 3.2rem;
+}
+
+.light-table h3{
+    padding: 1rem;
+    font-weight: lighter;
+}
+
+.table-header, .table-body{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.table-header{
+    background: #F2F4FA;
+    border-top: 1px solid #e7e8eb;
+    border-bottom: 1px solid #e7e8eb;
+    padding: 0.5rem 0;
+    color: grey;
+    font-size: 0.7rem;
+    font-weight: bolder;
+}
+
+.table-body{
+    padding: 1rem 0;
+    border-bottom: 1px solid #e7e8eb;
+    color: grey;
+    font-size: 0.7rem;
+}
